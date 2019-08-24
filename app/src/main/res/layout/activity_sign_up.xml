@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/formback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"
+        tools:srcCompat="@drawable/background" />
+
+
+    <ImageView
+        android:id="@+id/logoback"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="25dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/lipixses" />
+
+
+    <LinearLayout
+        android:layout_width="338dp"
+        android:layout_height="582dp"
+        android:layout_below="@+id/logoback"
+        android:layout_alignBottom="@+id/formback"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="-15dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="38dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/GetStarted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Started"
+            android:textAlignment="viewStart"
+            android:textColor="#FEFEFE"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/FirstInfoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Just a few details to get you started"
+            android:textColor="#FEFEFE"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/nameText"
+            android:layout_width="310dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/email"
+            android:hint="Name"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#3D5F5F"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/EmailText"
+            android:layout_width="310dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/email"
+            android:hint="Email"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#3D5F5F"
+            android:textColorLink="@color/white"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/pwText"
+            android:layout_width="310dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/email"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#3D5F5F"
+            android:textColorLink="@color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="selectImage"
+            android:text="Select Image" />
+
+        <TextView
+            android:id="@+id/Instruction"
+            android:layout_width="310dp"
+            android:layout_height="41dp"
+            android:layout_alignStart="@+id/SEtext"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:text="By signing up, you agree to  our Terms of Use and understand and  Privacy Policy."
+            android:textColor="#FFFFFF"
+            android:textColorHint="#111111"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/userImage"
+            android:layout_width="65dp"
+            android:layout_height="73dp"
+            android:contentDescription="CarImage" />
+
+        <Button
+            android:id="@+id/lgnbtn"
+            android:layout_width="310dp"
+            android:layout_height="70dp"
+            android:layout_alignEnd="@id/button2"
+            android:layout_alignBottom="@id/button2"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="64dp"
+            android:background="@drawable/loginbtn"
+            android:onClick="OnSignup"
+            android:shadowColor="@color/white"
+            android:text="SIGN UP"
+            android:textColor="@color/colorPrimary"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

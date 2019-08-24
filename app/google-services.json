@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "94953700533",
+    "firebase_url": "https://pixsesapp.firebaseio.com",
+    "project_id": "pixsesapp",
+    "storage_bucket": "pixsesapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94953700533:android:ced496a4b33f36e6",
+        "android_client_info": {
+          "package_name": "com.example.pixsesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94953700533-cp7f4ponbde12t2b3gcpjc6iulglhon4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pixsesapp",
+            "certificate_hash": "8fdaf41f52ec2e0e5bea6570b55baf800760c048"
+          }
+        },
+        {
+          "client_id": "94953700533-bpljt3l5i9nn9pc91uqsgagfa49uior5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKnrABCh9liKOD5AlOcBVntFdMePkxNZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94953700533-bpljt3l5i9nn9pc91uqsgagfa49uior5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
