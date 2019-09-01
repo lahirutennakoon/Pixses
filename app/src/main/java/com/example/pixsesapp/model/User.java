@@ -1,11 +1,14 @@
 package com.example.pixsesapp.model;
 
+import java.util.List;
+
 public class User {
     private String id;
     private String image;
     private String name;
     private String email;
     private String password;
+    private List friends;
 
     public String getId() {
         return id;
@@ -59,4 +62,11 @@ public class User {
         this.password = password;
     }
 
+    public List getFriends() {
+        return friends;
+    }
+
+    public void setFriends(List friends) {
+        this.friends = friends;
+    }
 }

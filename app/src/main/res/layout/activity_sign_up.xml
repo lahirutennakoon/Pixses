@@ -80,7 +80,7 @@
             android:layout_width="310dp"
             android:layout_height="42dp"
             android:layout_marginStart="18dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/email"
             android:hint="Email"
             android:textAlignment="textStart"
@@ -106,8 +106,11 @@
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="323dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/email"
             android:onClick="selectImage"
             android:text="Select Image" />
 
@@ -138,7 +141,7 @@
             android:layout_alignBottom="@id/button2"
             android:layout_alignParentBottom="false"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="4dp"
             android:layout_marginBottom="64dp"
             android:background="@drawable/loginbtn"
             android:onClick="OnSignup"

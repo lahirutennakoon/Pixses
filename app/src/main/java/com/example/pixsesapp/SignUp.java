@@ -23,6 +23,9 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class SignUp extends AppCompatActivity {
     private DatabaseReference mDatabase;
@@ -106,6 +109,12 @@ public class SignUp extends AppCompatActivity {
         user.setEmail(s_email);
         user.setPassword(s_password);
 
+        /*String[] names = {"ui", "rt"};
+        List nameList = new ArrayList<String>(Arrays.asList(names));
+        user.setFriends(nameList);*/
+
+
+
         //if there is an image to upload
         if (filePath != null) {
          System.out.println("not null");
@@ -159,5 +168,9 @@ public class SignUp extends AppCompatActivity {
         else {
             user.setImage("null");
         }
+    }
+    public void goToHomeActivity(View view) {
+        Intent intent = new Intent(this, HomeActivity.class);
+        startActivity(intent);
     }
 }

@@ -27,10 +27,6 @@ import com.google.android.gms.vision.face.FaceDetector;
 
 public class facedetect extends AppCompatActivity {
 
-
-
-
-
     ImageView imageView;
     Button btnprogress;
     @Override
